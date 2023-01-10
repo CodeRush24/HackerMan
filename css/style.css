@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Signika+Negative:wght@500&family=Ubuntu&family=Ubuntu+Mono&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    background: url('../images/2126445.jpg');
+    font-family: 'Ubuntu Mono', monospace;
+    color: white;
+    box-sizing: border-box;
+}
+
+.main{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.terminal-head p{
+    position: absolute;
+    padding-left: 10px;
+    width: 700px;
+    background: linear-gradient(#504b45 0%,#3c3b37 100%);
+}
+
+.terminal-head button{
+    z-index: 1;
+    position: relative;
+    padding-right: 10px;
+    width: fit-content;
+}
+
+.terminal-head{
+    display: flex;
+}
+
+.Terminal{
+    height: 500px;
+    width: 700px;
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/kalilinux.png') no-repeat;
+    background-size: 700px 500px;
+}
+
+.head{
+    width: fit-content;
+    background: transparent;
+    position: relative;
+    margin-left: 10px;
+    margin-top: 28px;
+}
+
+.head p{
+    color: rgb(42, 117, 4);
+    font-weight: bold;
+}
+
+.Prompt__input{
+    background: transparent;
+    width: fit-content;
+    border: none;
+    outline: none;
+    margin-left: 8px;
+    color: greenyellow;
+    font-size: 12px;
+}
+
+.Prompt__user{
+    color: rgb(233, 45, 45);
+}
+
+.Prompt__location {
+    color: #6d85a9;
+}
+
+.Prompt__dollar {
+    color: green;
+}
+
+.root{
+    display: flex;
+    align-items: center;
+}
+
+.fa-circle-xmark{
+    font-family: FontAwesome;
+    color: rgb(233, 45, 45);
+    border-radius: 50%;
+    position: relative;
+    top: 1px;
+    cursor: pointer;
+}
+
+.fa-circle-minus{
+    border-radius: 50%;
+    color: #595953;
+    cursor: pointer;
+}
+
+.fa-circle-stop{
+    border-radius: 50%;
+    color: #595953;
+    cursor: pointer;
+}
+
+#terminalText{
+    background: transparent;
+    font-weight: lighter;
+}
+
+#terminalTxt{
+    color: red;
+    font-weight: lighter;
+}
